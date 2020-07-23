@@ -1,4 +1,4 @@
-export interface Wold {
+export interface World {
   cases: number;
   deaths: number;
   recovered: number;

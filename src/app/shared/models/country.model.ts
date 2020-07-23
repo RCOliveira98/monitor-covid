@@ -1,10 +1,10 @@
-import { Wold } from './wold.model';
+import { World } from './world.model';
 
 interface CountryInfo {
   flag: string;
 }
 
-export interface Country extends Wold {
+export interface Country extends World {
   country: string;
   todayDeaths: number;
   critical: number;
