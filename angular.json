@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "monitor-covid19"
+    }
+  },
+  "defaultProject": "monitor-covid19",
+  "cli": {
+    "analytics": false
+  }
 }
