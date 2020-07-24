@@ -7,13 +7,15 @@ import { WorldDataPanelComponent } from './components/world-data-panel/world-dat
 import { CountryDataPanelComponent } from './components/country-data-panel/country-data-panel.component';
 import { LoadingComponent } from './components/loading/loading.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WorldDataPanelComponent,
     CountryDataPanelComponent,
-    LoadingComponent
+    LoadingComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

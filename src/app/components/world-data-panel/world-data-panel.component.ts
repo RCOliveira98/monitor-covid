@@ -42,7 +42,10 @@ export class WorldDataPanelComponent implements OnInit, OnDestroy {
     this.renderComponent = false;
 
     this.subscription = this.serviceCovid.getWorldData().subscribe(
-      (data: World) => this.world = data,
+      (data: World) => {
+        this.world = data;
+        console.log(this.world);
+      },
       e => console.error(e),
       () => this.renderComponent = true
       );
